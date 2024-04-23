@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hungry4News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style6.css">
+  <link href="icon.png" rel="icon">
+</head>
+
+<body>
+  <div class="header">
+    <img id="head" src="6.png">
+  </div>
+
+  <div class="extra" id=color1 > Click on the image to see the recipes!
+ </div>
+
+  <div class="container closed" id="container">
+  <header id="toggle">
+    <div class="header1"></div>
+    <div class="title">Air fryer Salmon</div>
+    </header>
+    <article>
+      <ul class="ingredients">
+        <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Salmon</div>
+        </li>
+          <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Orange</div>
+        </li>
+        <li>
+          <div class="amount">2tsp</div>
+          <div class="ingredient">Shoyu</div>
+        </li>
+        <li>
+          <div class="amount">2tsp</div>
+          <div class="ingredient">Honey</div>
+        </li>
+         <li>
+          <div class="amount">3tsp</div>
+          <div class="ingredient">Olive Oil</div>
+        </li>
+        <li>
+          <div class="amount">4 sprigs</div>
+          <div class="ingredient">Salt and Pepper</div>
+        </li>
+      </ul>
+      <div class="preparation">
+        <div>Add your salmon to a bowl and add all the other ingredients. Leave it resting for a few minutes then place the marinated salmon in the air fryer and cook it for 15 minutes at 400 degrees.</div>
+      </div>
+    </article>
+  </div>
+
+  <div class="container closed" id="container2">
+  <header id="toggle2">
+    <div class="header2"></div>
+    <div class="title">Beet and Avocado Salad</div>
+    </header>
+    <article>
+      <ul class="ingredients">
+        <li>
+          <div class="amount">2</div>
+          <div class="ingredient">Beets</div>
+        </li>
+           <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Avocado</div>
+        </li>
+           <li>
+          <div class="amount">1/2</div>
+          <div class="ingredient">Tofu</div>
+        </li>
+           <li>
+          <div class="amount">6</div>
+          <div class="ingredient">Basil</div>
+        </li>
+         <li>
+          <div class="amount">2tsp</div>
+          <div class="ingredient">Sunflower seed</div>
+        </li>
+           <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Lemon</div>
+        </li>
+           <li>
+          <div class="amount">2tsp</div>
+          <div class="ingredient">Olive Oil</div>
+        </li>
+           <li>
+          <div class="amount">3 springs</div>
+          <div class="ingredient">Salt and Pepper</div>
+        </li>
+      </ul>
+      <div class="preparation">
+        <div>Cook your beets without the skin until they are soft. Cut the beets, the avocado, and the tofu into squares and mix them in a bowl. Add the rest of the ingredients to your taste and enjoy it!</div>
+      </div>
+    </article>
+  </div>
+
+  <div class="container closed" id="container3">
+  <header id="toggle3">
+    <div class="header3"></div>
+    <div class="title">Pan S'mores</div>
+    </header>
+    <article>
+      <ul class="ingredients">
+        <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Pack of marshmallows</div>
+        </li>
+         <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Milk chocolate bar</div>
+        </li>
+         <li>
+          <div class="amount">1</div>
+          <div class="ingredient">Pack of sweet crackers</div>
+        </li>
+      </ul>
+      <div class="preparation">
+        <div>Layer the chocolate on top of the cracks and add the marshmallow on top. Bake for 20 minutes at 250 degrees. Bon appetit!</div>
+      </div>
+    </article>
+  </div>
+
+  <script>
+    function byID(id) {
+      return document.getElementById(id);
+    }
+
+    function toggleContainer(containerId) {
+      const container = byID(containerId);
+      if (container.classList.contains("closed")) {
+        container.classList.remove("closed");
+      } else {
+        container.classList.add("closed");
+      }
+    }
+
+    byID("toggle").onclick = function() {
+      toggleContainer("container");
+    }
+
+    byID("toggle2").onclick = function() {
+      toggleContainer("container2");
+    }
+
+    byID("toggle3").onclick = function() {
+      toggleContainer("container3");
+    }
+  </script>
+</body>
+
+<div class="container4">
+  <div class="loading-bar">
+    <div class="progress-bar"></div>
+  </div>
+</div>
+<br><br><br>
+
+<div class="extra1" id=color1 > More recipes cooming soon! </div>
+
+<br><br><br><br><br>
+
+</html>

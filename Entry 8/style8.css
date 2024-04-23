@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+.header{margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;}
+img#head{width: 100%;}
+body {
+background: rgba(215,194, 152, 58%);
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+padding: 5%}
+
+.title{
+	color: burlywood;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 2px 4px 4px black;
+}
+
+video#vid1{
+	width: 30%;
+	position: relative;
+	left: 15%;
+	transition: 0.3s ease;
+}
+video#vid1:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+}
+
+video#vid2{
+	width: 30%;
+	position: relative;
+	left: 25%;
+	transition: 0.3s ease;
+}
+video#vid2:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+
+}
+
+video#vid3{
+	width: 30%;
+	position: relative;
+	left: 15%;
+	transition: 0.3s ease;
+}
+video#vid3:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+}
+
+video#vid4{
+	width: 30%;
+	position: relative;
+	left: 30%;
+	transition: 0.3s ease;
+}
+video#vid4:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+}
+
+video#vid5{
+	width: 30%;
+	position: relative;
+	left: 15%;
+	transition: 0.3s ease;
+}
+video#vid5:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+}
+
+video#vid6{
+	width: 30%;
+	position: relative;
+	left: 30%;
+	transition: 0.3s ease;
+}
+video#vid6:hover{
+	width: 35%;
+	left: 17%;
+	box-shadow: 20px 10px 20px 10px black;
+}
+
+
+	input#button2{padding: 5px; background-color: red; color: white}
+	input#button1{padding: 5px; background-color: green; color: white}
+	input#button1:hover{background-color: darkgreen; color: white;}
+	input#button2:hover{background-color: maroon; color: white;}
+	textarea#cmt{background-color: rgba(215,194, 152, 58%); width: 40%}
+	form{background-color: rgba(215,194,152,2%); font-family: 'Work Sans', sans-serif;; color: black;
+		padding-left: 7%; padding-top: 3%; padding-bottom: 3%; font-size: 150%; margin-left: 30px;margin-top: 30px; margin-right: auto; width: 80%;}
+	textarea{background-color: white;}
+
+@media (max-width: 1415px){
+    body {
+        display: none;
+    }
+@media (min-width: 1415px){
+    body {
+        display: none;
+    }
+

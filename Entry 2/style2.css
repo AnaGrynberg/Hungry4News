@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.header{margin-top: auto; margin-bottom: auto; margin-left: -10px; margin-right: -10px;}
+img#head{width:100%;} 
+
+img#one:hover {
+  transform: scaleX(-1);
+}
+body {
+background: rgba(241, 190, 173);
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+
+}
+
+.text{ 
+margin-left: 150px;
+margin-right: 150px;
+}
+
+p{
+font-size: 25px;
+
+}
+
+h1{font-family: roboto-slab; font-size: 45px;}
+h3{font-family: roboto-slab; font-size: 30px}
+h5#anagut{text-align: center;font-family: roboto-slab;font-size: 19px}
+
+p.ana1 {
+text-decoration: italic;
+line-height: 200%;
+letter-spacing:-.1em;
+text-align:center;
+}
+
+a{text-decoration: none;
+color: #c02821;}
+
+#hex{
+color: #c02821;
+font-family: roboto-slab;
+font-size: 30px;
+text-align: center;
+}
+
+#named{
+color: maroon;
+}
+#rgb{
+color: black;
+}
+
+#one{
+	 border-radius: 30%;
+}
+#one1{
+	 border-radius: 30%;
+}
+
+#one2 {
+	border-radius: 30%;
+}
+
+#three{
+margin-left: 250px;
+border-radius: 10%;
+}
+
+@media (max-width: 1415px){
+    body {
+        display: none;
+    }
+@media (min-width: 1415px){
+    body {
+        display: none;
+    }
+

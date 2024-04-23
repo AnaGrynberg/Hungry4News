@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/* Base Styles */
+body {
+    background: rgba(176, 113, 158, 0.72); /* Adjusted opacity to valid range */
+    margin: 0 auto; /* Centers the body by setting equal margins on both sides */
+    font-family: 'Work Sans', sans-serif; /* Maintains consistent font */
+}
+
+/* Header Styles */
+.header {
+    margin: auto;
+}
+
+/* Image Styles */
+img#head {
+    width: 100%;
+}
+
+/* Container for positioning elements related to the plate image */
+.container {
+    position: relative;
+    width: 90%; /* Set width to control the scaling of the plate image */
+    margin: 0 auto; /* Centers the container */
+}
+
+img#plates {
+    width: 100%; /* This makes the plate image responsive to the container's width */
+    margin-bottom: 50px;
+}
+
+/* Positional Styles for clickable items on the plate */
+.bread, .nuts, .strawberry, .beans, .potato {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.bread { left: 44%; top: 70%; width: 12%; }
+.nuts { left: 40%; top: 70%; width: 9%; }
+.strawberry { left: 49%; top: 70%; width: 9%; }
+.beans { left: 44%; top: 70%; width: 10%; }
+.potato { left: 42%; top: 80%; width: 9%; }
+
+.bread:hover, .nuts:hover, .strawberry:hover, .beans:hover, .potato:hover {
+    opacity: 1; /* Reveals the item on hover */
+}
+
+/* Text Styles */
+h1, h2, a {
+    margin-left: 70px; /* Aligns text to the left */
+    color: rgb(0, 0, 0); /* Keeps the original color */
+}
+
+h1 {
+    font-size: 30px; /* Increase size for visibility */
+    font-weight: 300; /* Lighter font-weight as per the original family style */
+    margin-right: 500px;
+    color:rgb(138, 6, 72);
+}
+
+h2 {
+    font-size: 25px; /* Maintains original size */
+    font-weight: normal;
+    margin-right: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 20, 147); /* Adjust color for visibility */
+}
+
+/* Additional Styling for extra div */
+.extra {
+    background-color: rgba(223, 169, 174, 1.0);
+    padding: 20px;
+    border-radius: 55px;
+    margin: 20px 290px 20px 80px;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    z-index: 10;
+}

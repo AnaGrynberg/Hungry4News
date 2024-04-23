@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+img#head{width: 101%}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(192, 215, 119, 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  margin-bottom: 300px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: -240px;
+}
+
+.extra {
+
+    background-color: lightyellow;
+    border-style: 10px;
+    padding: 20px;
+    border: lightgoldenyellow inset 5px;
+    border-radius:5px;
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    border-top-left-radius: 55px;
+    margin-right: 1000px;
+    margin-left: 70px;
+    position:sticky;
+    left:0px;
+    top: 0px;
+    font-size: 15px;
+}
+
+.menu-container {
+    max-width: 800px;
+    background-color: lightyellow;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 300px;
+    margin-bottom: 300px;
+    margin-top: 120px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-categories {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-categories button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(136, 150, 115, 100%);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu-items {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu-items p {
+    font-size: 24px;
+    margin: 5px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+img#justFrame{
+    margin-left: 305px;
+    margin-top: 50px;
+width: 150px}
+
+#desktop-message {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    display: none;
+}
+
+@media (max-width: 1415px){
+    body {
+        display: none;
+    }
+@media (min-width: 1415px){
+    body {
+        display: none;
+    }
+
+

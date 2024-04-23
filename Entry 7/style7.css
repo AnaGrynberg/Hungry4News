@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+.header1{margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;}
+img#head1{width: 100%;}
+body {
+background: rgba(167,95, 55, 70%);
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+padding: 5%}
+}
+@media (max-width: 1415px){
+    body {
+        display: none;
+    }
+@media (min-width: 1415px){
+    body {
+        display: none;
+    }
